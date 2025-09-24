@@ -1,17 +1,18 @@
 package com.project;
 
-import org.w3c.dom.Text;
+import javafx.scene.text.Text;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 
 public class Controller0 {
 
 
-   @FXML
+    @FXML
     private TextField nameTextArea,ageTextArea;
+
 
     @FXML
     private Button button1;
@@ -24,26 +25,32 @@ public class Controller0 {
 
     @FXML
     private void comprobardor(ActionEvent event) {
-        String ageText = valueOf(inputAge.getText().trim());
-        String name = inputName.getText().trim();
+        String ageText = ageTextArea.getText().trim();
+        String name = nameTextArea.getText().trim();
 
         if (ageText.isEmpty()||name.isEmpty()){
-            errorTextMessage.setData("El nombre y edad no pueden estar vacios");
-        }else{
-            int age=Integer.parseInt(ageTextArea);
-            if (age<17){
-                errorTextMessage.setData("La edad no puede ser menor a 18!!");
+            errorTextMessage.setText("El nombre y edad no pueden estar vacios");
+        }
+        else{
+            int age = Integer.parseInt(ageText);
+            if (age<=0){
+                errorTextMessage.setText("La edad no puede ser negativo!!");
             }
             else{
                 // Guardamos en Main
                 Main.name = name;
                 Main.age = age;
+              //  System.out.println("Guardado en Main -> name: " + Main.name + ", age: " + Main.age);
+                Controller1 controller1 = (Controller1) UtilsViews.getController("View1");
+
+                controller1.initialize();
+
                 UtilsViews.setView("View1");
             }
         }
     }
 
-    @FXML
+   /* @FXML
     private void toView0(ActionEvent event) {
         UtilsViews.setView("View0");
     }
@@ -57,7 +64,7 @@ public class Controller0 {
     private void animateToView0(ActionEvent event) {
         UtilsViews.setViewAnimating("View0");
     }
-
+*/
     @FXML
     private void animateToView1(ActionEvent event) {
         UtilsViews.setViewAnimating("View1");

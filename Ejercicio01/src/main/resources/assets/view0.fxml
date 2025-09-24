@@ -15,7 +15,7 @@
             <Font size="20.0" />
          </font>
       </Text>
-      <Button fx:id="button1" layoutX="301.0" layoutY="247.0" mnemonicParsing="false" onAction="#animateToView1" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: white;" text="ENTER">
+      <Button fx:id="button1" layoutX="301.0" layoutY="247.0" mnemonicParsing="false" onAction="#comprobardor" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: white;" text="ENTER">
          <font>
             <Font size="20.0" />
          </font>

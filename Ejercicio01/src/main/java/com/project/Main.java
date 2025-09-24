@@ -7,11 +7,11 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    static int age = 0;
-    static String name = "";
+    public static String name; 
+    public static int age;     
 
     final int WIDOW_WIDTH = 500;
-    final int WINDOW_HEIGHT = 600;
+    final int WINDOW_HEIGHT = 300;
 
     public static void main(String[] args) {
         launch(args);

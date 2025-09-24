@@ -40,7 +40,7 @@ public class Controller0 {
                 // Guardamos en Main
                 Main.name = name;
                 Main.age = age;
-              //  System.out.println("Guardado en Main -> name: " + Main.name + ", age: " + Main.age);
+              //  System.out.println("Guardado en Main, name: " + Main.name + ", age: " + Main.age);
                 Controller1 controller1 = (Controller1) UtilsViews.getController("View1");
 
                 controller1.initialize();

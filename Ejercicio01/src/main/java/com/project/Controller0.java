@@ -1,11 +1,11 @@
 package com.project;
 
-import javafx.scene.text.Text;
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.text.Text;
 
 public class Controller0 {
 
@@ -42,9 +42,7 @@ public class Controller0 {
                 Main.age = age;
               //  System.out.println("Guardado en Main, name: " + Main.name + ", age: " + Main.age);
                 Controller1 controller1 = (Controller1) UtilsViews.getController("View1");
-
                 controller1.initialize();
-
                 UtilsViews.setView("View1");
             }
         }

@@ -1,2 +1,15 @@
+com\project\CtrlMovilDetalle.class
 com\project\Main.class
-com\project\Controller.class
+com\project\CtrlMovilMain$MenuCell.class
+com\project\DataManager$3.class
+com\project\CtrlMovilLista.class
+com\project\model\Videojuego.class
+com\project\CtrlMovilMain.class
+com\project\CtrlMovilLista$ItemCell.class
+com\project\DataManager.class
+com\project\model\Personaje.class
+com\project\DataManager$2.class
+com\project\CtrlPc.class
+com\project\model\Consola.class
+com\project\CtrlPc$1.class
+com\project\DataManager$1.class

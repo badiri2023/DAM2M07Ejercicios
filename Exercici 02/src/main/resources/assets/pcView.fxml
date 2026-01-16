@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+
+<BorderPane fx:id="mainBorderPane" xmlns:fx="http://javafx.com/fxml/1" 
+            xmlns="http://javafx.com/javafx/21.0.2" 
+            fx:controller="com.project.CtrlPc">
+
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+
+    <!-- Encabezado -->
+    <top>
+        <StackPane style="-fx-background-color: #ff00eeff;">
+            <padding>
+                <Insets bottom="10" left="10" right="10" top="10"/>
+            </padding>
+            <Label style="-fx-font-size: 24px; -fx-text-fill: white; -fx-font-weight: bold;" 
+                   text="Nintendo DB"/>
+        </StackPane>
+    </top>
+
+    <!-- Selector + lista con borde morado -->
+    <left>
+        <VBox prefWidth="250" spacing="10" styleClass="list-container">
+            <padding>
+                <Insets bottom="10" left="10" right="10" top="10"/>
+            </padding>
+            <ComboBox fx:id="categorySelector" promptText="Selecciona categoría" prefWidth="250"/>
+            <ListView fx:id="listItems" prefWidth="250" styleClass="custom-list"/>
+        </VBox>
+    </left>
+
+    <!-- Panel de contenido dividido en dos mitades -->
+    <center>
+        <VBox fx:id="contentPane" spacing="0">
+            <!-- Mitad superior: Imagen con margen -->
+            <StackPane prefHeight="300">
+                <padding>
+                    <Insets top="20" right="20" bottom="20" left="20"/>
+                </padding>
+                <ImageView fx:id="itemImage" 
+                           fitHeight="240" fitWidth="240" 
+                           preserveRatio="true"/>
+            </StackPane>
+
+            <!-- Mitad inferior: Texto -->
+            <VBox prefHeight="300" alignment="TOP_CENTER" spacing="10">
+                <Label fx:id="itemName" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+                <Label fx:id="itemDescription" wrapText="true" 
+                       maxWidth="1.7976931348623157E308" 
+                       style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+            </VBox>
+        </VBox>
+    </center>
+
+</BorderPane>

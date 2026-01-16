@@ -1,0 +1,119 @@
+/* ---- General (Encabezado) ---- */
+.header-movil {
+    -fx-background-color: #8E44AD; /* Fondo morado */
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #4A235A;     /* Borde inferior morado oscuro */
+}
+
+.header-movil .label {
+    -fx-text-fill: white; /* Texto blanco */
+}
+
+/* ---- Botón de Volver ---- */
+.boton-volver {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 5;
+    -fx-cursor: hand;
+}
+
+.icono-volver {
+    -fx-fill: #4A235A; /* Morado oscuro */
+}
+
+.boton-volver:hover .icono-volver {
+    -fx-fill: #FDFEFE; /* Blanco */
+}
+
+.boton-volver:pressed .icono-volver {
+    -fx-fill: #BDC3C7; /* Gris claro */
+}
+
+/* ----------------------------------------------------
+   Reglas para listas y ComboBox (PC)
+   ---------------------------------------------------- */
+
+/* Quita el padding por defecto de la lista */
+.list-view {
+    -fx-padding: 0;
+}
+
+/* Estilo para CADA celda (sin borde aquí) */
+.list-view .list-cell {
+    -fx-padding: 0; /* Dejamos que el HBox controle el padding */
+    -fx-background-color: transparent;
+}
+
+/* Clase separador (añadida desde Java a cada celda no vacía) */
+.cell-separator {
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #C39BD3; /* Morado claro */
+}
+
+/* Hover en celda */
+.list-view .list-cell:hover {
+    -fx-background-color: #f0f0f0; /* Gris claro */
+}
+
+/* Selección en ListView lateral y en popup del ComboBox */
+.list-view .list-cell:filled:selected,
+.combo-box-popup .list-view .list-cell:filled:selected {
+    -fx-background-color: rgba(106,0,184,0.12); /* fondo sutil morado */
+    -fx-border-color: #6a00b8;    /* morado oscuro en borde inferior */
+    -fx-border-width: 0 0 3 0;
+    -fx-font-weight: bold;
+    -fx-text-fill: -fx-text-base-color;
+}
+
+/* Evitar borde en celdas vacías */
+.list-view .list-cell:empty {
+    -fx-border-width: 0;
+}
+
+/* ---------------- ComboBox específico ---------------- */
+
+/* Clase que aplicas al ComboBox en FXML: combo-purple */
+.combo-purple {
+    -fx-border-color: #ff00ee;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+}
+
+/* Área visible del ComboBox (la "etiqueta" que muestra la selección) */
+.combo-purple .combo-box-base {
+    -fx-background-color: transparent;
+}
+
+/* Forzar color del texto visible del ComboBox (evita blanco) */
+.combo-purple .combo-box-base .label,
+.combo-purple .combo-box-base .text {
+    -fx-text-fill: -fx-text-base-color;
+}
+
+/* Popup list del ComboBox: fondo y celdas */
+.combo-purple .list-view {
+    -fx-background-color: white; /* o transparente si prefieres */
+}
+
+/* Celdas del popup con separador y selección (coincide con list-view) */
+.combo-purple .list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: #C39BD3;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 6 8 6 8;
+}
+
+.combo-purple .list-view .list-cell:filled:selected {
+    -fx-background-color: rgba(106,0,184,0.12);
+    -fx-border-color: #6a00b8;
+    -fx-border-width: 0 0 3 0;
+    -fx-font-weight: bold;
+}
+
+/* Color base del texto en la app (opcional, consistente) */
+.root {
+    -fx-text-base-color: #222222;
+}

@@ -18,8 +18,8 @@
 
 /* 2. BURBUJA USUARIO (Derecha, Morado vivo) */
 .bubble-user {
-    -fx-background-color: #6c5ce7; /* Morado estilo Discord */
-    -fx-background-radius: 15px 15px 0px 15px; /* Pico abajo a la derecha */
+    -fx-background-color: #6c5ce7; 
+    -fx-background-radius: 15px 15px 0px 15px; 
     -fx-text-fill: white;
     -fx-padding: 10px 15px;
     -fx-font-size: 14px;
@@ -29,7 +29,7 @@
 /* 3. BURBUJA IA (Izquierda, Gris oscuro) */
 .bubble-ai {
     -fx-background-color: #352a45;
-    -fx-background-radius: 15px 15px 15px 0px; /* Pico abajo a la izquierda */
+    -fx-background-radius: 15px 15px 15px 0px;
     -fx-text-fill: #e0dce8;
     -fx-padding: 10px 15px;
     -fx-font-size: 14px;

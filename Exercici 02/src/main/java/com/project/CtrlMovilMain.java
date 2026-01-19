@@ -5,13 +5,13 @@ import java.io.IOException;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
-import javafx.scene.Node; // Importante
+import javafx.scene.Node; 
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.control.ListCell; // Importante
-import javafx.scene.control.ListView; // Importante
-import javafx.scene.input.MouseEvent; // Importante
+import javafx.scene.control.ListCell;
+import javafx.scene.control.ListView; 
+import javafx.scene.input.MouseEvent; 
 
 public class CtrlMovilMain {
 
@@ -31,10 +31,10 @@ public class CtrlMovilMain {
      */
     @FXML
     public void initialize() {
-        // 1. Rellenamos la lista con las 3 opciones
+        // Rellenamos la lista con las 3 opciones
         menuListView.getItems().addAll("Personajes", "Videojuegos", "Consolas");
 
-        // 2. Le decimos a la lista que use nuestra "MenuCell" personalizada
+        // Le decimos a la lista que use nuestra "MenuCell" personalizada
         menuListView.setCellFactory(param -> new MenuCell());
     }
 
@@ -76,16 +76,10 @@ public class CtrlMovilMain {
      * Clase interna para definir el estilo de la celda del MENÚ
      */
     private class MenuCell extends ListCell<String> {
-        
         private Label label = new Label();
-
         public MenuCell() {
             super();
-            
-            // ¡¡CAMBIO AQUÍ!! (Texto más grande)
             label.setStyle("-fx-font-size: 30px; -fx-font-weight: bold;"); // Antes: 16px
-            
-            // ¡¡CAMBIO AQUÍ!! (Más espacio arriba y abajo)
             setPadding(new Insets(40, 15, 40, 15));        }
 
         @Override

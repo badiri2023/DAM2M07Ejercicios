@@ -14,7 +14,7 @@ public class Main extends Application {
     
     // Controladores
     private CtrlPc pcController;
-    private CtrlMovilMain movilMainController; // ¡Nuevo controlador!
+    private CtrlMovilMain movilMainController; 
 
     private static final double BREAKPOINT = 600.0;
     private boolean isMovilView = false;
@@ -22,22 +22,19 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        // 1. Crear UNA SOLA VEZ el DataManager
         DataManager dataManager = new DataManager();
 
-        // 2. Cargar la vista PC
+        // Cargar la vista PC
         FXMLLoader pcLoader = new FXMLLoader(getClass().getResource("/assets/pcView.fxml"));
         pcRoot = pcLoader.load();
         pcController = pcLoader.getController(); 
-        pcController.setDataManager(dataManager); // Le pasamos los datos
+        pcController.setDataManager(dataManager); 
 
-        // 3. Cargar la vista Móvil (AHORA CARGA movilMainView.fxml)
+        // Cargar la vista Móvil
         FXMLLoader movilLoader = new FXMLLoader(getClass().getResource("/assets/movilMainView.fxml"));
         movilRoot = movilLoader.load();
-        movilMainController = movilLoader.getController(); // Obtenemos su controlador
-        movilMainController.setDataManager(dataManager); // Le pasamos los datos
-
-        // --- El resto de tu lógica de `start` (es idéntica) ---
+        movilMainController = movilLoader.getController(); 
+        movilMainController.setDataManager(dataManager);
         
         double initialWidth = 800;
         double initialHeight = 600;

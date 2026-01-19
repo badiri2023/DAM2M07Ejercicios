@@ -20,7 +20,7 @@ public class DataManager {
     private Map<String, Videojuego> videojuegos = new HashMap<>();
     private Map<String, Consola> consolas = new HashMap<>();
 
-    // El constructor se llama al crear el DataManager (en Main.java)
+    // El constructor se llama al crear el DataManager
     // y automáticamente carga todo.
     public DataManager() {
         cargarPersonajes();

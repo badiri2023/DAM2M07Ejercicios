@@ -8,12 +8,12 @@ public class Personaje {
     private String nombre;
     
     @SerializedName("image")
-    private String imagen; // El nombre del archivo (ej. "mario.png")
+    private String imagen; 
     
     private String color;
     
     @SerializedName("game")
-    private String juego; // El juego al que pertenece
+    private String juego; 
 
     // --- Getters (métodos para obtener los datos) ---
     public String getNombre() { return nombre; }

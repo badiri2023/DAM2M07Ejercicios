@@ -116,7 +116,6 @@ public class CtrlMovilLista {
         }
     }
 
-
     /**
      * Clase interna que define cómo se ve cada fila de la lista
      * (Versión actualizada con StackPane para alineación)
@@ -148,7 +147,6 @@ public class CtrlMovilLista {
 
         /**
          * Este método se llama cada vez que hay que "dibujar" una celda
-         * ¡¡AQUÍ ESTÁ EL CAMBIO PARA ARREGLAR EL BUG!!
          */
         @Override
         protected void updateItem(Object item, boolean empty) {
@@ -158,14 +156,10 @@ public class CtrlMovilLista {
                 // Si la celda está vacía, quitamos todo
                 setText(null);
                 setGraphic(null);
-                
-                // ¡¡AQUÍ!! Quitamos la clase del separador
                 getStyleClass().remove("cell-separator");
                 
             } else {
                 // Si la celda está llena, ponemos todo
-                
-                // 1. Averiguamos qué es el ítem
                 String nombre = "";
                 String imagenFile = "";
 
@@ -180,7 +174,7 @@ public class CtrlMovilLista {
                     imagenFile = ((Consola) item).getImagen();
                 }
 
-                // 2. Ponemos los datos
+                //Ponemos los datos
                 label.setText(nombre);
                 try {
                     String rutaImg = "/assets/data/images/" + imagenFile;
@@ -189,11 +183,8 @@ public class CtrlMovilLista {
                 } catch (Exception e) {
                     imageView.setImage(null); 
                 }
-
-                // 3. Mostramos el gráfico
                 setGraphic(hbox);
                 
-                // ¡¡Y AQUÍ!! Añadimos la clase del separador
                 getStyleClass().add("cell-separator");
             }
         }

@@ -11,11 +11,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label; // ¡¡IMPORTANTE!! (No TextArea)
+import javafx.scene.control.Label; 
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.paint.Color; // ¡¡IMPORTANTE!!
-import javafx.scene.shape.Rectangle; // ¡¡IMPORTANTE!!
+import javafx.scene.paint.Color; 
+import javafx.scene.shape.Rectangle;
 
 public class CtrlMovilDetalle {
 
@@ -47,8 +47,6 @@ public class CtrlMovilDetalle {
      */
     private void mostrarDetalle(Object item) {
         
-        // Reseteamos el cuadrado de color (lo hacemos invisible)
-        // Si "itemColorRect" es null, aquí es donde crasheaba
         itemColorRect.setVisible(false);
 
         if (item instanceof Personaje) {
@@ -58,16 +56,13 @@ public class CtrlMovilDetalle {
             
             // Ponemos el color en el rectángulo y lo hacemos visible
             try {
-                // Color.web() necesita un código de color web (ej: "red", "#FF0000")
                 itemColorRect.setFill(Color.web(p.getColor()));
                 itemColorRect.setVisible(true);
             } catch (Exception e) {
-                // Si el color en el JSON es "rojo", Color.web fallará.
-                // Lo ignoramos y el cuadrado seguirá invisible.
                 itemColorRect.setVisible(false);
             }
             
-            // Ponemos el resto de la info en el Label
+            // info del Label
             itemDescription.setText("Juego: " + p.getJuego());
             cargarImagen(p.getImagen());
             
@@ -75,10 +70,8 @@ public class CtrlMovilDetalle {
             Videojuego v = (Videojuego) item;
             detailTitle.setText(v.getNombre());
             itemName.setText(v.getNombre());
-            
-            // Los videojuegos no tienen color, el rectángulo sigue invisible
-            
-            // Ponemos toda la info en el Label
+                        
+            // info del Label
             itemDescription.setText("Año: " + v.getAno() + "\nTipo: " + v.getTipo() + "\n\n" + v.getDescripcion());
             cargarImagen(v.getImagen());
             
@@ -95,7 +88,7 @@ public class CtrlMovilDetalle {
                 itemColorRect.setVisible(false);
             }
 
-            // Ponemos el resto de la info en el Label
+            // info del Label
             itemDescription.setText("Fecha: " + c.getFecha() + "\nProcesador: " + c.getProcesador() +
                     "\nUnidades Vendidas: " + c.getUnidadesVendidas());
             cargarImagen(c.getImagen());

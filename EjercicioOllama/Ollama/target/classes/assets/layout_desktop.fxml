@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ScrollPane?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/22"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.project.ControllerDesktop"
+            style="-fx-background-color: #2e0854;"> <!-- Violeta oscuro -->
+
+    <!-- Área de conversación centrada -->
+    <center>
+        <!-- Añadido fx:id="chatScroll" -->
+        <ScrollPane fx:id="chatScroll" fitToWidth="true" style="-fx-background: #1a0033;">
+            <content>
+                <VBox fx:id="chatBox" spacing="10" style="-fx-background-color: #1a0033;"/>
+            </content>
+        </ScrollPane>
+    </center>
+
+    <!-- Input + botones en la parte inferior -->
+    <bottom>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <Button fx:id="buttonSendFile"
+                    text="📎"
+                    onAction="#handleSendFile"
+                    style="-fx-background-color: #6a0dad; -fx-text-fill: white;"/>
+
+            <TextField fx:id="inputPrompt"
+                       promptText="Escribe tu prompt aquí..."
+                       style="-fx-background-color: #4b0082; -fx-text-fill: white;"
+                       HBox.hgrow="ALWAYS"/>
+            <Button fx:id="buttonSendText"
+                    text="⏎"
+                    onAction="#handleSendText"
+                    style="-fx-background-color: #6a0dad; -fx-text-fill: white;"/>
+
+            <Button fx:id="buttonCancel"
+                    text="Cancelar"
+                    onAction="#handleCancel"
+                    style="-fx-background-color: #6a0dad; -fx-text-fill: white;"/>
+        </HBox>
+    </bottom>
+</BorderPane>

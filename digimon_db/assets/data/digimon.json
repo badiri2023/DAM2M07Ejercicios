@@ -1,0 +1,151 @@
+{
+  "digimon": [
+    {
+      "id": "punimon",
+      "name": "Punimon",
+      "level": "Baby",
+      "desc": "Un Digimon recién nacido cuyo cuerpo gelatinoso reacciona a sus emociones. Aunque parece frágil, posee una sorprendente capacidad de adaptación y aprende rápidamente del entorno que lo rodea. Su naturaleza curiosa lo impulsa a acercarse a otros Digimon para absorber estímulos que influirán en su evolución.",
+      "image": "assets/data/images/digimon/punimon.jpg",
+      "evolves_from": null,
+      "evolves_to": ["tsunomon"]
+    },
+    {
+      "id": "poyomon",
+      "name": "Poyomon",
+      "level": "Baby",
+      "desc": "Un Digimon etéreo que flota como si estuviera hecho de niebla digital. Se comunica mediante suaves pulsaciones de luz y es extremadamente sensible a los cambios en su entorno. Observa en silencio, absorbiendo información que más tarde influirá en sus futuras formas.",
+      "image": "assets/data/images/digimon/poyomon.jpg",
+      "evolves_from": null,
+      "evolves_to": ["tokomon"]
+    },
+    {
+      "id": "yukibotamon",
+      "name": "YukimiBotamon",
+      "level": "Baby",
+      "desc": "Un Digimon bebé cubierto por un pelaje blanco que regula su temperatura interna. Habita en regiones frías del Mundo Digital y puede generar pequeñas partículas de nieve cuando se siente amenazado. Su apariencia tierna oculta un fuerte instinto de supervivencia.",
+      "image": "assets/data/images/digimon/yukibotamon.jpg",
+      "evolves_from": null,
+      "evolves_to": ["nyaromon"]
+    },
+    {
+      "id": "pitchmon",
+      "name": "Pitchmon",
+      "level": "Baby",
+      "desc": "Un pequeño Digimon acuático que se desplaza con gracia entre corrientes digitales. Su cuerpo flexible le permite realizar maniobras evasivas sorprendentes. Vive en grupos donde aprende a sincronizarse con otros para protegerse de depredadores.",
+      "image": "assets/data/images/digimon/pitchmon.jpg",
+      "evolves_from": null,
+      "evolves_to": ["bukamon"]
+    },
+
+    {
+      "id": "agumon",
+      "name": "Agumon",
+      "level": "Rookie",
+      "desc": "Un joven Digimon reptil que simboliza la valentía y el potencial latente. Su fuego interior refleja su determinación por proteger a sus aliados. Es conocido por formar vínculos profundos con humanos, lo que a menudo desencadena evoluciones excepcionales.",
+      "image": "assets/data/images/digimon/agumon.jpg",
+      "evolves_from": "koromon",
+      "evolves_to": ["greymon"]
+    },
+    {
+      "id": "gabumon",
+      "name": "Gabumon",
+      "level": "Rookie",
+      "desc": "Un Digimon tímido que oculta su verdadero cuerpo bajo una piel protectora creada a partir de datos cristalizados. Aunque reservado, posee un espíritu leal y un fuerte sentido del deber. La energía azul que genera refleja su nobleza y su deseo de proteger a su manada.",
+      "image": "assets/data/images/digimon/gabumon.jpg",
+      "evolves_from": "tsunomon",
+      "evolves_to": ["garurumon"]
+    },
+    {
+      "id": "patamon",
+      "name": "Patamon",
+      "level": "Rookie",
+      "desc": "Un Digimon de naturaleza pacífica cuyo cuerpo ligero le permite planear largas distancias. A pesar de su apariencia inocente, guarda un poder sagrado que despierta en momentos de extrema necesidad. Su evolución suele estar ligada a la esperanza y la fe.",
+      "image": "assets/data/images/digimon/patamon.jpg",
+      "evolves_from": "tokomon",
+      "evolves_to": ["angemon"]
+    },
+    {
+      "id": "gomamon",
+      "name": "Gomamon",
+      "level": "Rookie",
+      "desc": "Un Digimon travieso que habita en mares digitales. Su personalidad alegre contrasta con su capacidad para comandar criaturas marinas menores. Su pelaje está adaptado para resistir bajas temperaturas y almacenar energía para sus ataques acuáticos.",
+      "image": "assets/data/images/digimon/gomamon.jpg",
+      "evolves_from": "bukamon",
+      "evolves_to": ["ikkakumon"]
+    },
+
+    {
+      "id": "greymon",
+      "name": "Greymon",
+      "level": "Champion",
+      "desc": "Un Digimon dinosaurio que representa la fuerza bruta y la disciplina del combate. Su coraza craneal es símbolo de innumerables batallas ganadas, y su fuego es capaz de arrasar incluso terrenos digitales reforzados. Solo respeta a quienes demuestran verdadero coraje.",
+      "image": "assets/data/images/digimon/greymon.jpg",
+      "evolves_from": "agumon",
+      "evolves_to": ["metalgreymon"]
+    },
+    {
+      "id": "garurumon",
+      "name": "Garurumon",
+      "level": "Champion",
+      "desc": "Un Digimon lobo que combina velocidad, instinto y ferocidad helada. Su pelaje cristalizado puede descender la temperatura del aire a su alrededor. Aunque suele ser solitario, cuando forma un vínculo se convierte en un guardián inquebrantable.",
+      "image": "assets/data/images/digimon/garurumon.jpg",
+      "evolves_from": "gabumon",
+      "evolves_to": ["weregarurumon"]
+    },
+    {
+      "id": "angemon",
+      "name": "Angemon",
+      "level": "Champion",
+      "desc": "Un Digimon celestial que encarna la justicia y la pureza. Su aura sagrada puede neutralizar datos corruptos y restaurar la armonía en zonas afectadas por la oscuridad. Es considerado un símbolo de esperanza en el Mundo Digital.",
+      "image": "assets/data/images/digimon/angemon.jpg",
+      "evolves_from": "patamon",
+      "evolves_to": ["magnaangemon"]
+    },
+    {
+      "id": "ikkakumon",
+      "name": "Ikkakumon",
+      "level": "Champion",
+      "desc": "Un Digimon bestia marina cuyo cuerno está formado por minerales digitales extremadamente resistentes. Es un guerrero nato de los océanos, capaz de atravesar corrientes turbulentas y enfrentarse a depredadores gigantes.",
+      "image": "assets/data/images/digimon/ikkakumon.jpg",
+      "evolves_from": "gomamon",
+      "evolves_to": ["zudomon"]
+    },
+
+    {
+      "id": "metalgreymon",
+      "name": "MetalGreymon",
+      "level": "Ultimate",
+      "desc": "Una evolución forjada en combate, donde el cuerpo de Greymon se fusiona con tecnología avanzada. Su brazo mecánico y su pecho blindado albergan armamento devastador. Representa la unión entre instinto salvaje y precisión artificial.",
+      "image": "assets/data/images/digimon/metalgreymon.jpg",
+      "evolves_from": "greymon",
+      "evolves_to": []
+    },
+    {
+      "id": "weregarurumon",
+      "name": "WereGarurumon",
+      "level": "Ultimate",
+      "desc": "La forma humanoide de Garurumon, donde su ferocidad se combina con inteligencia táctica. Su cuerpo ágil le permite luchar cuerpo a cuerpo con destreza marcial. Es conocido por su sentido del honor y su valentía inquebrantable.",
+      "image": "assets/data/images/digimon/weregarurumon.jpg",
+      "evolves_from": "garurumon",
+      "evolves_to": []
+    },
+    {
+      "id": "magnaangemon",
+      "name": "MagnaAngemon",
+      "level": "Ultimate",
+      "desc": "Un Digimon angelical de alto rango cuya presencia altera el equilibrio entre luz y oscuridad. Porta la 'Gate of Destiny', un poder capaz de sellar entidades corruptas. Su misión es mantener la estabilidad del Mundo Digital.",
+      "image": "assets/data/images/digimon/magnaangemon.jpg",
+      "evolves_from": "angemon",
+      "evolves_to": []
+    },
+    {
+      "id": "zudomon",
+      "name": "Zudomon",
+      "level": "Ultimate",
+      "desc": "Un guerrero marino que porta un martillo forjado con minerales ancestrales del océano digital. Su fuerza física es legendaria, pero también posee un profundo sentido de camaradería. Lidera a otros Digimon acuáticos en batallas contra amenazas de las profundidades.",
+      "image": "assets/data/images/digimon/zudomon.jpg",
+      "evolves_from": "ikkakumon",
+      "evolves_to": []
+    }
+  ]
+}

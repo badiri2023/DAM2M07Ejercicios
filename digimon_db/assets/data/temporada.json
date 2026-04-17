@@ -1,0 +1,117 @@
+{
+  "temporada": [
+    {
+      "id": "adventure",
+      "name": "Digimon Adventure",
+      "image": "assets/data/images/temporada/adventure.jpg",
+      "year": 1999,
+      "desc": "La primera gran travesía del Mundo Digital, donde ocho niños son transportados a un entorno desconocido y hostil. Guiados por sus Digimon compañeros, descubren que su llegada no fue casualidad: están destinados a restaurar el equilibrio entre la luz y la oscuridad. A lo largo de su aventura, los Niños Elegidos forjan lazos inquebrantables, enfrentan amenazas que superan su comprensión y descubren el verdadero significado del valor y la amistad.",
+      "tamers": [
+        { "name": "Taichi Yagami", "partner": "agumon", "digivice": "digivice_adventure" },
+        { "name": "Yamato Ishida", "partner": "gabumon", "digivice": "digivice_adventure" },
+        { "name": "Sora Takenouchi", "partner": "biyomon", "digivice": "digivice_adventure" },
+        { "name": "Koushiro Izumi", "partner": "tentomon", "digivice": "digivice_adventure" },
+        { "name": "Mimi Tachikawa", "partner": "palmon", "digivice": "digivice_adventure" },
+        { "name": "Joe Kido", "partner": "gomamon", "digivice": "digivice_adventure" },
+        { "name": "Takeru Takaishi", "partner": "patamon", "digivice": "digivice_adventure" },
+        { "name": "Hikari Yagami", "partner": "gatomon", "digivice": "digivice_adventure" }
+      ]
+    },
+
+    {
+      "id": "adventure02",
+      "name": "Digimon Adventure 02",
+      "image": "assets/data/images/temporada/adventure02.jpg",
+      "year": 2000,
+      "desc": "Una nueva generación de Niños Elegidos hereda la responsabilidad de proteger el Mundo Digital, ahora amenazado por fuerzas que manipulan sus propias reglas. Con la aparición del D-3 y los Digi-Eggs, los jóvenes héroes descubren nuevas formas de evolución y alianzas inesperadas. La historia se centra en la superación personal, la redención y la importancia de confiar en los demás incluso en los momentos más oscuros.",
+      "tamers": [
+        { "name": "Daisuke Motomiya", "partner": "veemon", "digivice": "d3" },
+        { "name": "Miyako Inoue", "partner": "hawkmon", "digivice": "d3" },
+        { "name": "Iori Hida", "partner": "armadillomon", "digivice": "d3" },
+        { "name": "Takeru Takaishi", "partner": "patamon", "digivice": "d3" },
+        { "name": "Hikari Yagami", "partner": "gatomon", "digivice": "d3" },
+        { "name": "Ken Ichijouji", "partner": "wormmon", "digivice": "d3" }
+      ]
+    },
+
+    {
+      "id": "tamers",
+      "name": "Digimon Tamers",
+      "image": "assets/data/images/temporada/tamers.jpg",
+      "year": 2001,
+      "desc": "En un mundo donde los Digimon son solo un juego de cartas, un grupo de jóvenes descubre que la frontera entre ficción y realidad es más delgada de lo que parece. Los Tamers deben aprender a convivir con sus compañeros Digimon mientras enfrentan amenazas que emergen de los datos más profundos del Mundo Digital. Esta temporada explora temas de identidad, responsabilidad y el vínculo emocional entre humanos y Digimon como nunca antes.",
+      "tamers": [
+        { "name": "Takato Matsuda", "partner": "guilmon", "digivice": "dpower" },
+        { "name": "Ruki Makino", "partner": "renamon", "digivice": "dpower" },
+        { "name": "Jenrya Lee", "partner": "terriermon", "digivice": "dpower" }
+      ]
+    },
+
+    {
+      "id": "frontier",
+      "name": "Digimon Frontier",
+      "image": "assets/data/images/temporada/frontier.jpg",
+      "year": 2002,
+      "desc": "Un grupo de niños recibe un llamado misterioso que los lleva a un Mundo Digital en crisis. A diferencia de temporadas anteriores, aquí los humanos no acompañan a Digimon: se convierten en ellos mediante los Spirits, fragmentos de antiguos guerreros legendarios. Frontier explora el sacrificio, la identidad y el peso de heredar un legado que trasciende generaciones.",
+      "tamers": [
+        { "name": "Takuya Kanbara", "partner": null, "digivice": "dscanner" },
+        { "name": "Koji Minamoto", "partner": null, "digivice": "dscanner" },
+        { "name": "JP Shibayama", "partner": null, "digivice": "dscanner" },
+        { "name": "Zoe Orimoto", "partner": null, "digivice": "dscanner" },
+        { "name": "Tommy Himi", "partner": null, "digivice": "dscanner" }
+      ]
+    },
+
+    {
+      "id": "savers",
+      "name": "Digimon Savers",
+      "image": "assets/data/images/temporada/savers.jpg",
+      "year": 2006,
+      "desc": "En un mundo donde los Digimon aparecen en el Mundo Real, un equipo especializado conocido como DATS se encarga de mantener el equilibrio entre ambos mundos. Savers presenta una visión más madura, donde los conflictos emocionales y las decisiones humanas influyen directamente en la evolución de los Digimon. La fuerza de voluntad y la determinación se convierten en el motor principal de la evolución.",
+      "tamers": [
+        { "name": "Masaru Daimon", "partner": "agumon_savers", "digivice": "ic" },
+        { "name": "Tohma H. Norstein", "partner": "gaomon", "digivice": "ic" },
+        { "name": "Yoshino Fujieda", "partner": "lalamon", "digivice": "ic" }
+      ]
+    },
+
+    {
+      "id": "xroswars",
+      "name": "Digimon Xros Wars",
+      "image": "assets/data/images/temporada/xroswars.jpg",
+      "year": 2010,
+      "desc": "En un Mundo Digital dividido en múltiples zonas, un joven estratega lidera a un ejército de Digimon mediante la técnica DigiXros. Esta temporada se centra en la guerra, la estrategia y el liderazgo, mostrando cómo la unión de fuerzas puede cambiar el destino de mundos enteros. Xros Wars destaca por su escala épica y su enfoque en la cooperación.",
+      "tamers": [
+        { "name": "Taiki Kudo", "partner": "shoutmon", "digivice": "xros_loader" },
+        { "name": "Akari Hinomoto", "partner": "cutemon", "digivice": "xros_loader" },
+        { "name": "Zenjirou Tsurugi", "partner": "ballistamon", "digivice": "xros_loader" }
+      ]
+    },
+
+    {
+      "id": "appmon",
+      "name": "Digimon Universe: Appli Monsters",
+      "image": "assets/data/images/temporada/appmon.jpg",
+      "year": 2016,
+      "desc": "En una era dominada por aplicaciones y redes digitales, los Appmon emergen como entidades conscientes nacidas de programas informáticos. Los protagonistas deben enfrentarse a amenazas que se propagan a través de la tecnología moderna, explorando temas como la identidad digital, la inteligencia artificial y el impacto de la información en la sociedad.",
+      "tamers": [
+        { "name": "Haru Shinkai", "partner": "gatchmon", "digivice": "applidrive" },
+        { "name": "Eri Karan", "partner": "dokamon", "digivice": "applidrive" },
+        { "name": "Astra", "partner": "musimon", "digivice": "applidrive" }
+      ]
+    },
+
+    {
+      "id": "ghostgame",
+      "name": "Digimon Ghost Game",
+      "image": "assets/data/images/temporada/ghostgame.jpg",
+      "year": 2021,
+      "desc": "Una serie que mezcla misterio, terror y ciencia digital. Fenómenos inexplicables conocidos como 'Hologram Ghosts' comienzan a manifestarse en el Mundo Real, revelando la existencia de Digimon ocultos entre los humanos. Los protagonistas investigan estos casos mientras descubren secretos sobre la naturaleza de los datos, la evolución y la delgada línea entre lo virtual y lo tangible.",
+      "tamers": [
+        { "name": "Hiro Amanokawa", "partner": "gammamon", "digivice": "vital_bracelet" },
+        { "name": "Ruli Tsukiyono", "partner": "angoramon", "digivice": "vital_bracelet" },
+        { "name": "Kiyoshiro Higashimitarai", "partner": "jellymon", "digivice": "vital_bracelet" }
+      ]
+    }
+  ]
+}

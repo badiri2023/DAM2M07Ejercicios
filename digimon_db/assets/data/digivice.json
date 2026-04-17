@@ -1,0 +1,67 @@
+{
+  "digivice": [
+    {
+      "id": "digivice_adventure",
+      "name": "Digivice (Adventure)",
+      "season": "Digimon Adventure",
+      "desc": "El Digivice original entregado a los Niños Elegidos, diseñado para resonar con la fuerza emocional de su portador. Este dispositivo actúa como un catalizador de lazos, amplificando la luz interior del usuario y permitiendo que su Digimon evolucione en momentos críticos. También es capaz de detectar distorsiones oscuras en el Mundo Digital, guiando a su portador hacia zonas donde la armonía se ve amenazada.",
+      "functions": ["Evolución", "Refuerzo de luz", "Detección de oscuridad"],
+      "image": "assets/data/images/digivice/Digivice.jpg",
+      "base_digimon": ["agumon", "gabumon", "patamon", "gomamon", "palmon", "tentomon"]
+    },
+    {
+      "id": "d3",
+      "name": "D-3",
+      "season": "Digimon Adventure 02",
+      "desc": "Un Digivice de segunda generación creado para enfrentar amenazas más complejas. El D-3 permite acceder a Digi-Eggs, desbloqueando Armor Evolution, una forma de evolución basada en antiguas virtudes digitales. También habilita Jogress Evolution, una fusión entre dos Digimon que solo es posible cuando sus portadores comparten absoluta confianza. Además, el D-3 puede abrir portales entre el Mundo Real y el Mundo Digital.",
+      "functions": ["Armor Evolution", "Jogress Evolution", "Apertura de portales"],
+      "image": "assets/data/images/digivice/D-3.jpg",
+      "base_digimon": ["veemon", "hawkmon", "armadillomon", "wormmon"]
+    },
+    {
+      "id": "dpower",
+      "name": "D-Power",
+      "season": "Digimon Tamers",
+      "desc": "Un Digivice experimental que combina datos del usuario con el potencial del Digimon. El D-Power permite modificar habilidades mediante cartas especiales, alterando temporalmente estadísticas, ataques o atributos. Su función Matrix Evolution canaliza la energía emocional del Tamer para lograr evoluciones avanzadas. En casos excepcionales, puede activar Biomerge Evolution, fusionando físicamente al Tamer con su Digimon para alcanzar un poder sin precedentes.",
+      "functions": ["Card Slash", "Matrix Evolution", "Biomerge Evolution"],
+      "image": "assets/data/images/digivice/D-Power.jpg",
+      "base_digimon": ["guilmon", "renamon", "terriermon"]
+    },
+    {
+      "id": "dscanner",
+      "name": "D-Scanner",
+      "season": "Digimon Frontier",
+      "desc": "Un Digivice único que permite a los humanos asumir la forma de Digimon mediante los Spirits, fragmentos de antiguos guerreros digitales. El D-Scanner analiza y sincroniza los datos del usuario con el Spirit correspondiente, permitiendo transformaciones completas. También puede acceder a Beast Spirits, formas más salvajes y poderosas que requieren un control emocional excepcional. Su función Fusion Spirit combina múltiples Spirits para liberar un poder legendario.",
+      "functions": ["Spirit Evolution", "Beast Spirit Evolution", "Fusion Spirit"],
+      "image": "assets/data/images/digivice/D-Scanner.jpg",
+      "base_digimon": []
+    },
+    {
+      "id": "ic",
+      "name": "Digivice iC",
+      "season": "Digimon Savers",
+      "desc": "Un Digivice que canaliza la energía emocional del usuario en forma de 'DNA Charge'. Esta energía se convierte en datos que impulsan la evolución del Digimon asociado. El iC también permite activar Burst Mode, una forma extrema que libera el potencial máximo del Digimon durante un corto periodo. Su diseño está optimizado para sincronizarse con Digimon que poseen fuertes lazos con humanos.",
+      "functions": ["DNA Charge", "Burst Mode"],
+      "image": "assets/data/images/digivice/Digivice-iC.jpg",
+      "base_digimon": ["agumon_savers", "gaomon", "lalamon"]
+    },
+    {
+      "id": "xros_loader",
+      "name": "Xros Loader",
+      "season": "Digimon Xros Wars",
+      "desc": "Un dispositivo avanzado capaz de combinar múltiples Digimon en una sola entidad mediante DigiXros. Esta técnica no es una evolución tradicional, sino una fusión estratégica que mezcla habilidades, armamento y personalidades. El Xros Loader también almacena Code Crowns, artefactos que controlan territorios del Mundo Digital. Su poder depende en gran medida del liderazgo y determinación del General que lo porta.",
+      "functions": ["DigiXros", "Code Crown Storage"],
+      "image": "assets/data/images/digivice/xros_loader.jpg",
+      "base_digimon": ["shoutmon"]
+    },
+    {
+      "id": "applidrive",
+      "name": "AppliDrive",
+      "season": "Digimon Universe: Appli Monsters",
+      "desc": "Un dispositivo que materializa Appmon, programas digitales con conciencia propia. El AppliDrive permite fusionar aplicaciones para crear nuevas habilidades y formas más poderosas. También puede realizar App Realization, trayendo a los Appmon al mundo físico. Su funcionamiento depende de la compatibilidad entre el usuario y los chips que contienen los datos esenciales de cada Appmon.",
+      "functions": ["App Fusion", "App Realization"],
+      "image": "assets/data/images/digivice/applidrive.jpg",
+      "base_digimon": ["gatchmon"]
+    }
+  ]
+}
